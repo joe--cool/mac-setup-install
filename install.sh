@@ -12,3 +12,7 @@ rm -rf mac-dev-playbook
 git clone https://github.com/joe--cool/mac-dev-playbook
 cd mac-dev-playbook
 
+# Install pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+/usr/bin/env python -c "$(curl -fsSL https://bootstrap.pypa.io/get-pip.py)"
